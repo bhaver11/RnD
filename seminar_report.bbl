@@ -1,0 +1,633 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{signalDoc}{misc}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{howpublished}{\url{https://signal.org/docs/}}
+    \endentry
+    \entry{quora-1}{misc}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.quora.com/What-are-the-advantages-and-limitations-of-XMPP-Extensible-Messaging-and-Presence-Protocol
+      \endverb
+      \verb{url}
+      \verb https://www.quora.com/What-are-the-advantages-and-limitations-of-XMPP-Extensible-Messaging-and-Presence-Protocol
+      \endverb
+    \endentry
+    \entry{quora-2}{misc}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.quora.com/Why-didnt-Facebook-Chat-Message-use-XMPP-Jabber-like-other-IMs
+      \endverb
+      \verb{url}
+      \verb https://www.quora.com/Why-didnt-Facebook-Chat-Message-use-XMPP-Jabber-like-other-IMs
+      \endverb
+    \endentry
+    \entry{medium}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cc29bcffd2f254c0f1efd4db476521e2}{%
+           family={Amri},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc29bcffd2f254c0f1efd4db476521e2}
+      \strng{fullhash}{cc29bcffd2f254c0f1efd4db476521e2}
+      \strng{bibnamehash}{cc29bcffd2f254c0f1efd4db476521e2}
+      \strng{authorbibnamehash}{cc29bcffd2f254c0f1efd4db476521e2}
+      \strng{authornamehash}{cc29bcffd2f254c0f1efd4db476521e2}
+      \strng{authorfullhash}{cc29bcffd2f254c0f1efd4db476521e2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Why should someone leave XMPP?}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://medium.com/@amrishodiq/why-should-someone-leave-xmpp-7a77d53e679d
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@amrishodiq/why-should-someone-leave-xmpp-7a77d53e679d
+      \endverb
+    \endentry
+    \entry{BACCARELLA2018431}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b6b9afa1dbb2f15cd3cc2a76db127a7e}{%
+           family={Baccarella},
+           familyi={B\bibinitperiod},
+           given={Christian\bibnamedelima V.},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=19e8768f9ce59202958980a570bbe094}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Timm\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=1a8e1c379ccac86d773827bce6192c92}{%
+           family={Kietzmann},
+           familyi={K\bibinitperiod},
+           given={Jan\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e8c2e874c9caaba8db8b6d9715fdee83}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima P.},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{fee455fa8881af197ae637ee35355847}
+      \strng{fullhash}{fb22ddc06c871832d2c373446f358432}
+      \strng{bibnamehash}{fee455fa8881af197ae637ee35355847}
+      \strng{authorbibnamehash}{fee455fa8881af197ae637ee35355847}
+      \strng{authornamehash}{fee455fa8881af197ae637ee35355847}
+      \strng{authorfullhash}{fb22ddc06c871832d2c373446f358432}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0263-2373}
+      \field{journaltitle}{European Management Journal}
+      \field{number}{4}
+      \field{title}{Social media? It's serious! Understanding the dark side of social media}
+      \field{volume}{36}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{431\bibrangedash 438}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.emj.2018.07.002
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0263237318300781
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0263237318300781
+      \endverb
+    \endentry
+    \entry{4801860}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=66163eefee3d062e1674f5d9585f954e}{%
+           family={{Cutillo}},
+           familyi={C\bibinitperiod},
+           given={L.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=88b7884da5565a484451cbd3cbaecdfe}{%
+           family={{Molva}},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5f7788c486be29cae5a98c3e53d7edd2}{%
+           family={{Strufe}},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bf37fdc4337e41937ead9c3a672a80d}
+      \strng{fullhash}{4bf37fdc4337e41937ead9c3a672a80d}
+      \strng{bibnamehash}{4bf37fdc4337e41937ead9c3a672a80d}
+      \strng{authorbibnamehash}{4bf37fdc4337e41937ead9c3a672a80d}
+      \strng{authornamehash}{4bf37fdc4337e41937ead9c3a672a80d}
+      \strng{authorfullhash}{4bf37fdc4337e41937ead9c3a672a80d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 Sixth International Conference on Wireless On-Demand Network Systems and Services}
+      \field{title}{Privacy preserving social networking through decentralization}
+      \field{year}{2009}
+      \field{pages}{145\bibrangedash 152}
+      \range{pages}{8}
+    \endentry
+    \entry{prot-buff}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeltitlesource}{title}
+      \field{title}{Google's Protocol Buffers}
+      \verb{urlraw}
+      \verb https://developers.google.com/protocol-buffers
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/protocol-buffers
+      \endverb
+    \endentry
+    \entry{xmppOverview}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=af2ddda165683fbc00a1348e47b791eb}{%
+           family={{Hornsby}},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6d7d36693f074f9dace1fe895f6b397f}{%
+           family={{Walsh}},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe852a6e5defd48fe86dc6030740b005}
+      \strng{fullhash}{fe852a6e5defd48fe86dc6030740b005}
+      \strng{bibnamehash}{fe852a6e5defd48fe86dc6030740b005}
+      \strng{authorbibnamehash}{fe852a6e5defd48fe86dc6030740b005}
+      \strng{authornamehash}{fe852a6e5defd48fe86dc6030740b005}
+      \strng{authorfullhash}{fe852a6e5defd48fe86dc6030740b005}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Symposium on Consumer Electronics (ISCE 2010)}
+      \field{title}{From instant messaging to cloud computing, an XMPP review}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{xmpp-arch}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3656094aa90ce6b5927293e625dedee3}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d0047b72f80c933780ca6c04ca4af131}{%
+           family={developer.ibm.com},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{3656094aa90ce6b5927293e625dedee3}
+      \strng{fullhash}{3656094aa90ce6b5927293e625dedee3}
+      \strng{bibnamehash}{3656094aa90ce6b5927293e625dedee3}
+      \strng{authorbibnamehash}{3656094aa90ce6b5927293e625dedee3}
+      \strng{authornamehash}{3656094aa90ce6b5927293e625dedee3}
+      \strng{authorfullhash}{3656094aa90ce6b5927293e625dedee3}
+      \strng{editorbibnamehash}{d0047b72f80c933780ca6c04ca4af131}
+      \strng{editornamehash}{d0047b72f80c933780ca6c04ca4af131}
+      \strng{editorfullhash}{d0047b72f80c933780ca6c04ca4af131}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{note}{\href{https://developer.ibm.com/technologies/messaging/tutorials/x-xmppintro/}{developer.ibm.com} {[Online; posted 15-September-2009]}}
+      \field{title}{Meet the Extensible Messaging and Presence Protocol (XMPP)}
+      \field{year}{2009}
+    \endentry
+    \entry{article}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7374c513b8b333db54e4e406d2cbd4a2}{%
+           family={Karpisek},
+           familyi={K\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f2e83115077830c4dfc76e83db33c876}{%
+           family={Baggili},
+           familyi={B\bibinitperiod},
+           given={Ibrahim},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b0edb51bc07797466753510328814ea4}{%
+           family={Breitinger},
+           familyi={B\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{067d90c283ce3e1176f0a785319886d5}
+      \strng{fullhash}{067d90c283ce3e1176f0a785319886d5}
+      \strng{bibnamehash}{067d90c283ce3e1176f0a785319886d5}
+      \strng{authorbibnamehash}{067d90c283ce3e1176f0a785319886d5}
+      \strng{authornamehash}{067d90c283ce3e1176f0a785319886d5}
+      \strng{authorfullhash}{067d90c283ce3e1176f0a785319886d5}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Digital Investigation}
+      \field{month}{10}
+      \field{title}{WhatsApp network forensics: Decrypting and understanding the WhatsApp call signaling messages}
+      \field{volume}{15}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1016/j.diin.2015.09.002
+      \endverb
+    \endentry
+    \entry{polis}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ae221c0c92cb7be83dd9f3fa1058bbd8}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae221c0c92cb7be83dd9f3fa1058bbd8}
+      \strng{fullhash}{ae221c0c92cb7be83dd9f3fa1058bbd8}
+      \strng{bibnamehash}{ae221c0c92cb7be83dd9f3fa1058bbd8}
+      \strng{authorbibnamehash}{ae221c0c92cb7be83dd9f3fa1058bbd8}
+      \strng{authornamehash}{ae221c0c92cb7be83dd9f3fa1058bbd8}
+      \strng{authorfullhash}{ae221c0c92cb7be83dd9f3fa1058bbd8}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Taiwan is making democracy work again. It's time we paid attention}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.wired.co.uk/article/taiwan-democracy-social-media
+      \endverb
+      \verb{url}
+      \verb https://www.wired.co.uk/article/taiwan-democracy-social-media
+      \endverb
+    \endentry
+    \entry{signal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9f041e8b94a2f0e808bd0e57cf5ef137}{%
+           family={Mujaj},
+           familyi={M\bibinitperiod},
+           given={Aulon},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {University Of OSLO}%
+      }
+      \strng{namehash}{9f041e8b94a2f0e808bd0e57cf5ef137}
+      \strng{fullhash}{9f041e8b94a2f0e808bd0e57cf5ef137}
+      \strng{bibnamehash}{9f041e8b94a2f0e808bd0e57cf5ef137}
+      \strng{authorbibnamehash}{9f041e8b94a2f0e808bd0e57cf5ef137}
+      \strng{authornamehash}{9f041e8b94a2f0e808bd0e57cf5ef137}
+      \strng{authorfullhash}{9f041e8b94a2f0e808bd0e57cf5ef137}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Comparison of Secure Messaging Protocols and Implementations}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.duo.uio.no/handle/10852/56906
+      \endverb
+      \verb{url}
+      \verb https://www.duo.uio.no/handle/10852/56906
+      \endverb
+    \endentry
+    \entry{openXMPP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=92004cb5bb6519193bcad6d344094db4}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Pin},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Helsinki University of Technology}%
+      }
+      \strng{namehash}{92004cb5bb6519193bcad6d344094db4}
+      \strng{fullhash}{92004cb5bb6519193bcad6d344094db4}
+      \strng{bibnamehash}{92004cb5bb6519193bcad6d344094db4}
+      \strng{authorbibnamehash}{92004cb5bb6519193bcad6d344094db4}
+      \strng{authornamehash}{92004cb5bb6519193bcad6d344094db4}
+      \strng{authorfullhash}{92004cb5bb6519193bcad6d344094db4}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An open standard for instant messaging: eXtensible Messaging and Presence Protocol (XMPP)}
+      \field{year}{2006}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.expo-centre.ae/Expo_backend/uploads/nie_ready.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.expo-centre.ae/Expo_backend/uploads/nie_ready.pdf
+      \endverb
+    \endentry
+    \entry{xmppEXT}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=4f56d5564e433c2952ee77f41395c34b}{%
+           family={{Ozturk}},
+           familyi={O\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f56d5564e433c2952ee77f41395c34b}
+      \strng{fullhash}{4f56d5564e433c2952ee77f41395c34b}
+      \strng{bibnamehash}{4f56d5564e433c2952ee77f41395c34b}
+      \strng{authorbibnamehash}{4f56d5564e433c2952ee77f41395c34b}
+      \strng{authornamehash}{4f56d5564e433c2952ee77f41395c34b}
+      \strng{authorfullhash}{4f56d5564e433c2952ee77f41395c34b}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 International Symposium on Collaborative Technologies and Systems}
+      \field{title}{Introduction to XMPP protocol and developing online collaboration applications using open source software and libraries}
+      \field{year}{2010}
+      \field{pages}{21\bibrangedash 25}
+      \range{pages}{5}
+    \endentry
+    \entry{rcs-wiki}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Rich Communication Services}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Rich_Communication_Services
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Rich_Communication_Services
+      \endverb
+    \endentry
+    \entry{xmppLessons}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3e3872bbda5d3f4a7fb2de26ab882065}{%
+           family={{Saint-Andre}},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e3872bbda5d3f4a7fb2de26ab882065}
+      \strng{fullhash}{3e3872bbda5d3f4a7fb2de26ab882065}
+      \strng{bibnamehash}{3e3872bbda5d3f4a7fb2de26ab882065}
+      \strng{authorbibnamehash}{3e3872bbda5d3f4a7fb2de26ab882065}
+      \strng{authornamehash}{3e3872bbda5d3f4a7fb2de26ab882065}
+      \strng{authorfullhash}{3e3872bbda5d3f4a7fb2de26ab882065}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Magazine}
+      \field{number}{4}
+      \field{title}{XMPP: lessons learned from ten years of XML messaging}
+      \field{volume}{47}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{92\bibrangedash 96}
+      \range{pages}{5}
+    \endentry
+    \entry{rcs-google}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1e05f49d0082e20949d422244bfab4ab}{%
+           family={Serna},
+           familyi={S\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e05f49d0082e20949d422244bfab4ab}
+      \strng{fullhash}{1e05f49d0082e20949d422244bfab4ab}
+      \strng{bibnamehash}{1e05f49d0082e20949d422244bfab4ab}
+      \strng{authorbibnamehash}{1e05f49d0082e20949d422244bfab4ab}
+      \strng{authornamehash}{1e05f49d0082e20949d422244bfab4ab}
+      \strng{authorfullhash}{1e05f49d0082e20949d422244bfab4ab}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{note}{[Online; posted 29-April-2018]}
+      \field{title}{Google RCS is not trying to fight WhatsApp}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://hackernoon.com/google-rcs-is-not-trying-to-fight-whatsapp-a35ced0d1871
+      \endverb
+      \verb{url}
+      \verb https://hackernoon.com/google-rcs-is-not-trying-to-fight-whatsapp-a35ced0d1871
+      \endverb
+    \endentry
+    \entry{csna}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=bb4b0c61f6e0d045f8da34a059a06e70}{%
+           family={{Singh}},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fcd442f4e435f700a8a9a6fe00b99576}{%
+           family={{Goyal}},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{dae0e5e8c8cd2be145e2481cc12d9d56}
+      \strng{fullhash}{dae0e5e8c8cd2be145e2481cc12d9d56}
+      \strng{bibnamehash}{dae0e5e8c8cd2be145e2481cc12d9d56}
+      \strng{authorbibnamehash}{dae0e5e8c8cd2be145e2481cc12d9d56}
+      \strng{authornamehash}{dae0e5e8c8cd2be145e2481cc12d9d56}
+      \strng{authorfullhash}{dae0e5e8c8cd2be145e2481cc12d9d56}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 15th International Conference on Intelligence in Next Generation Networks}
+      \field{title}{CSNA: A Social networking solution for RCS and mobile user}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{191\bibrangedash 195}
+      \range{pages}{5}
+    \endentry
+    \entry{SOLID}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{title}{SOLID}
+      \verb{urlraw}
+      \verb https://solid.mit.edu/
+      \endverb
+      \verb{url}
+      \verb https://solid.mit.edu/
+      \endverb
+    \endentry
+    \entry{google-xmpp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c44e1acacdf5711ffa393d32636dc596}{%
+           family={Steven},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c44e1acacdf5711ffa393d32636dc596}
+      \strng{fullhash}{c44e1acacdf5711ffa393d32636dc596}
+      \strng{bibnamehash}{c44e1acacdf5711ffa393d32636dc596}
+      \strng{authorbibnamehash}{c44e1acacdf5711ffa393d32636dc596}
+      \strng{authornamehash}{c44e1acacdf5711ffa393d32636dc596}
+      \strng{authorfullhash}{c44e1acacdf5711ffa393d32636dc596}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{05}
+      \field{title}{Google moves away from the XMPP open-messaging standard}
+      \field{year}{2013}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.zdnet.com/article/google-moves-away-from-the-xmpp-open-messaging-standard/
+      \endverb
+      \verb{url}
+      \verb https://www.zdnet.com/article/google-moves-away-from-the-xmpp-open-messaging-standard/
+      \endverb
+    \endentry
+    \entry{co-facts}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e05723e9550b56d6e13c1e5f40512e36}{%
+           family={Steven\bibnamedelima Butler},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Iris\bibnamedelima Hsu/CPJ},
+           giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e05723e9550b56d6e13c1e5f40512e36}
+      \strng{fullhash}{e05723e9550b56d6e13c1e5f40512e36}
+      \strng{bibnamehash}{e05723e9550b56d6e13c1e5f40512e36}
+      \strng{authorbibnamehash}{e05723e9550b56d6e13c1e5f40512e36}
+      \strng{authornamehash}{e05723e9550b56d6e13c1e5f40512e36}
+      \strng{authorfullhash}{e05723e9550b56d6e13c1e5f40512e36}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Taiwan's digital minister on combatting disinformation without censorship}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://cpj.org/blog/2019/05/qa-taiwans-digital-minister-on-combatting-disinfor.php
+      \endverb
+      \verb{url}
+      \verb https://cpj.org/blog/2019/05/qa-taiwans-digital-minister-on-combatting-disinfor.php
+      \endverb
+    \endentry
+    \entry{xmpp-whatsapp}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{[Online; posted 26-February-2014]}
+      \field{title}{The WhatApp Architecture Facebook Bought for 19 Billion Dollars}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html
+      \endverb
+      \verb{url}
+      \verb http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html
+      \endverb
+    \endentry
+    \entry{inproceedings}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=ca7113dbb62934c93258cc62b6c15e0e}{%
+           family={Vanerio},
+           familyi={V\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=07b1b6ae98d5cced8d712eb9c7dd70da}{%
+           family={Casas},
+           familyi={C\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ace1c75fe37bc791cc57fd74fa9e4d8b}
+      \strng{fullhash}{ace1c75fe37bc791cc57fd74fa9e4d8b}
+      \strng{bibnamehash}{ace1c75fe37bc791cc57fd74fa9e4d8b}
+      \strng{authorbibnamehash}{ace1c75fe37bc791cc57fd74fa9e4d8b}
+      \strng{authornamehash}{ace1c75fe37bc791cc57fd74fa9e4d8b}
+      \strng{authorfullhash}{ace1c75fe37bc791cc57fd74fa9e4d8b}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{title}{WhatsApp Calling: a Revised Analysis on WhatsApp's Architecture and Calling Service}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{13\bibrangedash 15}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/2940116.2940132
+      \endverb
+    \endentry
+    \entry{rcs-vs-whatsapp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=245ea1c61e5a8e93d983f0ae78372b67}{%
+           family={Westenberg},
+           familyi={W\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{245ea1c61e5a8e93d983f0ae78372b67}
+      \strng{fullhash}{245ea1c61e5a8e93d983f0ae78372b67}
+      \strng{bibnamehash}{245ea1c61e5a8e93d983f0ae78372b67}
+      \strng{authorbibnamehash}{245ea1c61e5a8e93d983f0ae78372b67}
+      \strng{authornamehash}{245ea1c61e5a8e93d983f0ae78372b67}
+      \strng{authorfullhash}{245ea1c61e5a8e93d983f0ae78372b67}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{[Online; posted 6-November-2019]}
+      \field{title}{RCS vs WhatsApp: Thoughts from a long-time WhatsApp user}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.androidauthority.com/rcs-vs-whatsapp-1051157/
+      \endverb
+      \verb{url}
+      \verb https://www.androidauthority.com/rcs-vs-whatsapp-1051157/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
