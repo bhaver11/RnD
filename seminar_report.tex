@@ -1,10 +1,14 @@
-\documentclass[11pt, conference, a4paper]{IEEEtran}
+\documentclass[12pt, conference, a4paper]{article}
 \usepackage{a4wide}
 \usepackage[centertags]{amsmath}
 \usepackage{amsfonts,amssymb,amsthm}
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{iitbcstitle}
+% \usepackage{listings}
+% \usepackage{xcolor}
+% \usepackage{xparse}
+\usepackage[cache=false]{minted}
 \usepackage{biblatex} 
 \usepackage{url}
 \usepackage{hyperref}
@@ -16,60 +20,64 @@
 \linespread{1.15}
 \usepackage[cm]{fullpage}
 \usepackage{rotating}
+\usepackage{times}
+\usepackage{textcomp}
 \setlength\parindent{0pt}
 \addbibresource{references.bib}
 
 \begin{document}
 
 \title{APRICOT and SAFE\\
-RnD Report
 }
-\author{\IEEEauthorblockN{Bhaveshkumar Yadav}
 \author{
 \begin{tabular}{c}  {Bhaveshkumar Yadav} \\ bhaveshy@iitb.ac.in \\Department of Computer Science \& Engineering \\ IIT Bombay \end{tabular} }
-\\
-\mbox{}
-\IEEEauthorblockA{Department of Computer Science and Engineering, IIT Bombay, Powai}
-
-}
 
 \maketitle
-\begin{abstract}
-  Instant messaging is everywhere nowadays. It has become an essential part of people's personal, social, and even professional lives. It allows people to communicate in almost real-time and in many different ways (Group, unicast, broadcast). However, unlike systems like e-mail, there is no widely accepted common standard for instant messaging. Also, the privacy of users and the spreading of misinformation (fake news) is a concern. XMPP(eXtensible Messaging and Presence Protocol) was the first effort in creating an open standard for instant messaging. RCS (Rich Communication Services), which is backed by telecom operators, is another standard close to the open messaging goal. But big players have already stopped using XMPP, and RCS has not gained popularity yet and may not do so shortly. \\
-  This survey paper discusses the reasons for these and lists the essential features required in an open messaging standard. 
-\end{abstract}
 \pagenumbering{arabic}
 
 
 
 \section{Introduction}
 \label{SEC:introduction}
-Instant messaging gained popularity because it provides almost real-time communication. With time, several Instant messaging applications emerged, each trying to provide many more features than just a simple messaging application. Earlier, mainly email was used for professional communication, but now IM apps for work are gaining popularity too. These apps have features like file sharing and group video calls, which are useful in a professional environment.
-However, unlike email, the instant messaging space is not an open ground where people can communicate with each other irrespective of the IM client that they are using. People have to be on the same IM network to communicate with each other. Thus there is very little or no interoperability among instant messaging clients. Many factors have led to this situation, which we discuss in the paper.
-\par
-\textbf{Why do we need interoperability and open standards?}
-With so many people relying on Instant messaging, the platforms have a lot of user data. Some of them offer end-to-end encryption, which hides the messages, but the metadata is still exposed and can be used to generate analytical insights about the user. Some standards offer sophisticated encryption including most of the metadata but do not consider interoperability. 
-We need a common standard to enable user privacy, to contain the spread of misinformation and also to facilitate interoperability among different IM clients. Interoperability avoids vendor lock-in and gives more freedom to the user. This freedom enables companies to play a fair game by improving their services and not using user data for their benefit.
-\par
-XMPP (eXtensible Messaging and Presence Protocol ) was designed to be an open standard for Instant messaging, which would enable interoperability among different instant messaging clients. It started strong. A lot of instant messaging applications started with XMPP as their backbone, but eventually, as the platforms grew, they moved away from XMPP due to a variety of reasons as we will cover in detail later.
-\par
-RCS (Rich communications services) is a successor of SMS(short messaging services). It's a standard that aims at providing Instant Messaging like features through the telecom network irrespective of the IM client. It seems like a ray of hope for interoperability, but it has not been able to pick up popularity due to a lack of proper standardization and implementations. It was standardized properly only recently in the year 2016 \cite{rcs-wiki}.
-\par
-There have been other projects and ideas too which aim at preserving user privacy. This paper aims to explore these systems and discover the qualities required in an open standard for instant messaging.
-The paper is organized as follows. Section \ref{SEC: xmpp-overview} describes XMPP with its features and reasons for failure. Section \ref{SEC: rcs} talks about RCS. Section \ref{SEC: other} lists out other related work towards open standards and user privacy control. Section \ref{SEC: conclusion} concludes with the properties of an ideal open messaging standard. 
+This report is the documentation of the work done on the SAFE and APRICOT app for iOS during the spring semester of 2019-20. SAFE (Smart, Authenticated, Fast Exams) is an application system used in IIT Bombay and 30+ other colleges for conducting exams, tracking attendance, online correction of regular exams, etc. 
+APRICOT (A PRIvacy preserving COntact Tracing app) is a contact tracing app developed during the COVID-19 Pandemic to track the possible spread of infection. This documentation will help people pick up the project in the future. 
+Section \ref{SEC: 1} describes the work done on Web Sockets for SAFE- iOS. Section \ref{SEC: 2} is about the periodic submission of a quiz in the background. Section \ref{SEC: 3} is the documentation of the iOS front-end APRICOT app, including details about Bluetooth scanning.
 
-
-
-\section{XMPP overview}
-\label{SEC: xmpp-overview}
-The eXtensible Messaging and Presence Protocol (XMPP) is a standard for IM service. It uses XML for carrying near-real-time messaging, presence, and request/response services. The Jabber open-source community first proposed it. Many organizations like Google, Facebook, Whatsapp implemented the standard into products based on Instant Messaging.
-\subsection{XMPP architecture}
-XMPP core consists of three elements
+\section{SAFE - Websocket in iOS}
+\label{SEC: 1}
+In the Android version of the SAFE app, during an ongoing quiz, a WebSocket connection is established with the back-end. This connection is used to send real-time information to the server. For example, when a student puts the app in the background, the corresponding flags are immediately sent to the server.
+Thus a teacher can view the real-time flags on the SAFE analytics dashboard. 
+However, this feature is not implemented in the iOS app. The app logs information during the quiz locally. This information is only sent to the server when the quiz is submitted. Thus, while the quiz is going on, real-time data is not available from the iOS version of the app. 
+My first task was to implement this feature in iOS. I started exploring various WebSocket libraries for iOS. 
+\subsection{About WebSockets in iOS.}
+WebSocket was not a first-class citizen in iOS before iOS 13. Hence to implement WebSockets reliably and conveniently, we needed to use third-party libraries. One of the most popular libraries is \textbf{Starscream}. It does all the heavy lifting behind the scenes and makes it easier to manage WebSockets. The library is open source and is available on \href{https://github.com/daltoniam/Starscream}{Github}\\
+However, from iOS 13 onwards, WebSockets became a first-class citizen and can be easily implemented using URLSession. 
+But to support older versions of iOS using Starscream was necessary.
+\subsection{Starscream}
+\subsubsection{Installation}
 \begin{itemize}
-    \item XMPP client
-    \item XMPP server
-    \item XMPP Gateways
+  \item Add \textbf{pod 'Starscream', '\url{~>} 4.0.0'} at the end of the podfile
+  \item Run \textbf{pod install} in the terminal
 \end{itemize}
+\subsubsection{Usage}
+Import the library at the top of the swift file with \mintinline{swift}{import Starscream}\\
+Once imported, we can open a connection to a WebSocket server as follows:
+\begin{minted}{swift}
+  var request = URLRequest(url: URL(string: "http://localhost:8080")!)
+  request.timeoutInterval = 5
+  socket = WebSocket(request: request)
+  socket.delegate = self
+  socket.connect()
+\end{minted}
+Note that socket should be a class property defined at the beginning of class as \mintinline{swift}{var socket:WebSocket!}\\
+
+We are setting the current class as the delegate of the WebSocket class. Hence we must mention it in the class definition as follows:
+\begin{minted}[]{swift}
+  class  YourClass : WebSocketDelegate {
+    ....
+  }
+\end{minted}
+
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=3in]{xmpp_architecture.png}

@@ -2182,24 +2182,23 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">rcs-wiki</bcf:citekey>
-    <bcf:citekey order="2">xmpp-arch</bcf:citekey>
-    <bcf:citekey order="3">xmppEXT</bcf:citekey>
-    <bcf:citekey order="4">xmpp-whatsapp</bcf:citekey>
-    <bcf:citekey order="5">rcs-wiki</bcf:citekey>
-    <bcf:citekey order="6">rcs-google</bcf:citekey>
-    <bcf:citekey order="7">SOLID</bcf:citekey>
+    <bcf:citekey order="1">xmpp-arch</bcf:citekey>
+    <bcf:citekey order="2">xmppEXT</bcf:citekey>
+    <bcf:citekey order="3">xmpp-whatsapp</bcf:citekey>
+    <bcf:citekey order="4">rcs-wiki</bcf:citekey>
+    <bcf:citekey order="5">rcs-google</bcf:citekey>
+    <bcf:citekey order="6">SOLID</bcf:citekey>
+    <bcf:citekey order="7">4801860</bcf:citekey>
     <bcf:citekey order="8">4801860</bcf:citekey>
     <bcf:citekey order="9">4801860</bcf:citekey>
     <bcf:citekey order="10">4801860</bcf:citekey>
-    <bcf:citekey order="11">4801860</bcf:citekey>
-    <bcf:citekey order="12">co-facts</bcf:citekey>
-    <bcf:citekey order="13">polis</bcf:citekey>
+    <bcf:citekey order="11">co-facts</bcf:citekey>
+    <bcf:citekey order="12">polis</bcf:citekey>
+    <bcf:citekey order="13">prot-buff</bcf:citekey>
     <bcf:citekey order="14">prot-buff</bcf:citekey>
     <bcf:citekey order="15">prot-buff</bcf:citekey>
-    <bcf:citekey order="16">prot-buff</bcf:citekey>
+    <bcf:citekey order="16">signalDoc</bcf:citekey>
     <bcf:citekey order="17">signalDoc</bcf:citekey>
-    <bcf:citekey order="18">signalDoc</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

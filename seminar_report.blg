@@ -1,27 +1,27 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'seminar_report.blg'
-[127] biber-darwin:322> INFO - === Sat Jun 20, 2020, 18:11:56
-[164] Biber.pm:415> INFO - Reading 'seminar_report.bcf'
-[314] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[338] Biber.pm:4256> INFO - Processing section 0
-[339] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[339] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[367] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[371] bibtex.pm:1653> INFO - LaTeX decoding ...
-[413] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[415] Utils.pm:304> WARN - Duplicate entry key: 'signalDoc' in file 'references.bib', skipping ...
-[477] Utils.pm:304> WARN - month field 'September' in entry 'xmpp-arch' is not an integer - this will probably not sort properly.
-[482] Utils.pm:304> WARN - month field 'February' in entry 'xmpp-whatsapp' is not an integer - this will probably not sort properly.
-[521] Utils.pm:304> WARN - month field 'November' in entry 'rcs-vs-whatsapp' is not an integer - this will probably not sort properly.
-[540] Utils.pm:304> WARN - month field 'April' in entry 'rcs-google' is not an integer - this will probably not sort properly.
-[558] Utils.pm:304> WARN - month field 'May' in entry 'co-facts' is not an integer - this will probably not sort properly.
-[563] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/pv/0z9hqtw520bg2c775r6nb22h0000gn/T/biber_tmp_gcC2/references.bib_26076.utf8, line 8, warning: 1 characters of junk seen at toplevel
-[564] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/pv/0z9hqtw520bg2c775r6nb22h0000gn/T/biber_tmp_gcC2/references.bib_26076.utf8, line 26, warning: 1 characters of junk seen at toplevel
-[564] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/pv/0z9hqtw520bg2c775r6nb22h0000gn/T/biber_tmp_gcC2/references.bib_26076.utf8, line 42, warning: 1 characters of junk seen at toplevel
-[626] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[626] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[626] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[626] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[691] bbl.pm:652> INFO - Writing 'seminar_report.bbl' with encoding 'UTF-8'
-[707] bbl.pm:755> INFO - Output to seminar_report.bbl
-[708] Biber.pm:128> INFO - WARNINGS: 9
+[140] biber-darwin:322> INFO - === Sat Jun 20, 2020, 21:26:57
+[175] Biber.pm:415> INFO - Reading 'seminar_report.bcf'
+[324] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[345] Biber.pm:4256> INFO - Processing section 0
+[346] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[347] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[373] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[376] bibtex.pm:1653> INFO - LaTeX decoding ...
+[418] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[420] Utils.pm:304> WARN - Duplicate entry key: 'signalDoc' in file 'references.bib', skipping ...
+[468] Utils.pm:304> WARN - month field 'May' in entry 'co-facts' is not an integer - this will probably not sort properly.
+[482] Utils.pm:304> WARN - month field 'November' in entry 'rcs-vs-whatsapp' is not an integer - this will probably not sort properly.
+[486] Utils.pm:304> WARN - month field 'April' in entry 'rcs-google' is not an integer - this will probably not sort properly.
+[509] Utils.pm:304> WARN - month field 'September' in entry 'xmpp-arch' is not an integer - this will probably not sort properly.
+[545] Utils.pm:304> WARN - month field 'February' in entry 'xmpp-whatsapp' is not an integer - this will probably not sort properly.
+[559] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/pv/0z9hqtw520bg2c775r6nb22h0000gn/T/biber_tmp_7GDe/references.bib_31126.utf8, line 8, warning: 1 characters of junk seen at toplevel
+[559] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/pv/0z9hqtw520bg2c775r6nb22h0000gn/T/biber_tmp_7GDe/references.bib_31126.utf8, line 26, warning: 1 characters of junk seen at toplevel
+[559] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/pv/0z9hqtw520bg2c775r6nb22h0000gn/T/biber_tmp_7GDe/references.bib_31126.utf8, line 42, warning: 1 characters of junk seen at toplevel
+[604] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[604] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[604] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[604] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[648] bbl.pm:652> INFO - Writing 'seminar_report.bbl' with encoding 'UTF-8'
+[659] bbl.pm:755> INFO - Output to seminar_report.bbl
+[660] Biber.pm:128> INFO - WARNINGS: 9
