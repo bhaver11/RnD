@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k+kd}{var} \PYG{n+nv}{parameters} \PYG{p}{:} \PYG{p}{[}\PYG{n+nb}{String} \PYG{p}{:} \PYG{n+nb}{Any}\PYG{p}{]} \PYG{p}{=} \PYG{p}{[}
+                  \PYG{l+s}{\PYGZdq{}seconds\PYGZus{}since\PYGZus{}mark\PYGZdq{}} \PYG{p}{:} \PYG{l+s}{\PYGZdq{}0\PYGZdq{}}\PYG{p}{,}
+                  \PYG{l+s}{\PYGZdq{}quizData\PYGZdq{}} \PYG{p}{:} \PYG{n}{submission}\PYG{p}{,}
+                  \PYG{p}{]}
+\end{Verbatim}

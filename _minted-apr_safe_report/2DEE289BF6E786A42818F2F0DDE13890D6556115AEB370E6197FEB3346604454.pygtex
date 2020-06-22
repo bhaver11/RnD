@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{ApricotAPIManager}\PYG{p}{.}\PYG{n}{generateOTP}\PYG{p}{(}\PYG{n}{lastUpdateRQ}\PYG{p}{:}\PYG{n}{attListRequest}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{k+kd}{var} \PYG{n+nv}{keychainUniqueDeviceId}\PYG{p}{:}\PYG{n+nb}{String} \PYG{p}{\PYGZob{}}
+            \PYG{k+kr}{get} \PYG{p}{\PYGZob{}}
+                \PYG{k+kd}{let} \PYG{n+nv}{bundleName} \PYG{p}{=} \PYG{n}{Bundle}\PYG{p}{.}\PYG{n}{main}\PYG{p}{.}\PYG{n}{bundleIdentifier}
+                \PYG{k+kd}{let} \PYG{n+nv}{keychain} \PYG{p}{=} \PYG{n}{Keychain}\PYG{p}{(}\PYG{n}{service}\PYG{p}{:} \PYG{n}{bundleName} \PYG{p}{??} \PYG{l+s}{\PYGZdq{}apricot\PYGZdq{}}\PYG{p}{)}
+                \PYG{k}{if} \PYG{k+kd}{let} \PYG{n+nv}{id} \PYG{p}{=} \PYG{n}{keychain}\PYG{p}{[}\PYG{n}{UniqueDeviceKey}\PYG{p}{]}  \PYG{p}{\PYGZob{}}
+                    \PYG{k}{return} \PYG{n}{id}
+                \PYG{p}{\PYGZcb{}}
+                \PYG{k}{return} \PYG{l+s}{\PYGZdq{}\PYGZdq{}}
+            \PYG{p}{\PYGZcb{}}
+            \PYG{k+kr}{set} \PYG{p}{\PYGZob{}}
+                \PYG{k+kd}{let} \PYG{n+nv}{bundleName} \PYG{p}{=} \PYG{n}{Bundle}\PYG{p}{.}\PYG{n}{main}\PYG{p}{.}\PYG{n}{bundleIdentifier}
+                \PYG{k+kd}{let} \PYG{n+nv}{keychain} \PYG{p}{=} \PYG{n}{Keychain}\PYG{p}{(}\PYG{n}{service}\PYG{p}{:} \PYG{n}{bundleName} \PYG{p}{??} \PYG{l+s}{\PYGZdq{}apricot\PYGZdq{}}\PYG{p}{)}
+
+                \PYG{k}{if} \PYG{k+kd}{let} \PYG{n+nv}{t} \PYG{p}{=} \PYG{n}{keychain}\PYG{p}{[}\PYG{n}{UniqueDeviceKey}\PYG{p}{]}  \PYG{p}{\PYGZob{}}
+                    \PYG{n+nb+bp}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}key already saved : \PYGZdq{}}\PYG{o}{+}\PYG{n}{t}\PYG{p}{)}
+                \PYG{p}{\PYGZcb{}}
+                \PYG{k}{else} \PYG{p}{\PYGZob{}}
+                    \PYG{n}{keychain}\PYG{p}{[}\PYG{n}{UniqueDeviceKey}\PYG{p}{]} \PYG{p}{=} \PYG{n}{newValue}
+
+                \PYG{p}{\PYGZcb{}}
+
+            \PYG{p}{\PYGZcb{}}
+        \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

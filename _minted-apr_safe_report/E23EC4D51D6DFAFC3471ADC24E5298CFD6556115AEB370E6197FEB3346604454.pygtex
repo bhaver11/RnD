@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k+kd}{var} \PYG{n+nv}{request} \PYG{p}{=} \PYG{n}{URLRequest}\PYG{p}{(}\PYG{n}{url}\PYG{p}{:} \PYG{n}{URL}\PYG{p}{(}\PYG{n}{string}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}http://localhost:8080\PYGZdq{}}\PYG{p}{)}\PYG{o}{!}\PYG{p}{)}
+  \PYG{n}{request}\PYG{p}{.}\PYG{n}{timeoutInterval} \PYG{p}{=} \PYG{l+m+mi}{5}
+  \PYG{n}{socket} \PYG{p}{=} \PYG{n}{WebSocket}\PYG{p}{(}\PYG{n}{request}\PYG{p}{:} \PYG{n}{request}\PYG{p}{)}
+  \PYG{n}{socket}\PYG{p}{.}\PYG{n}{delegate} \PYG{p}{=} \PYG{k+kc}{self}
+  \PYG{n}{socket}\PYG{p}{.}\PYG{n}{connect}\PYG{p}{()}
+\end{Verbatim}

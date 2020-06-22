@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k+kd}{let} \PYG{n+nv}{parameters} \PYG{p}{:} \PYG{p}{[}\PYG{n+nb}{String} \PYG{p}{:} \PYG{n+nb}{String}\PYG{p}{]} \PYG{p}{=} \PYG{p}{[}
+            \PYG{l+s}{\PYGZdq{}phone\PYGZdq{}} \PYG{p}{:} \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{phoneNum} \PYG{k}{as} \PYG{n+nb}{String}\PYG{p}{,}
+            \PYG{l+s}{\PYGZdq{}device\PYGZus{}id\PYGZdq{}} \PYG{p}{:}    \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{keychainUniqueDeviceId}\PYG{p}{,}
+            \PYG{l+s}{\PYGZdq{}app\PYGZus{}id\PYGZdq{}} \PYG{p}{:} \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{app\PYGZus{}id}
+        \PYG{p}{]}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k+kr}{@objc} \PYG{k+kd}{func} \PYG{n+nf}{getOTP}\PYG{p}{()\PYGZob{}}
+      \PYG{k+kd}{let} \PYG{n+nv}{phoneNumber} \PYG{p}{=} \PYG{n}{phoneNumberInput}\PYG{p}{.}\PYG{n}{text}\PYG{p}{!}
+          \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{phoneNum} \PYG{p}{=}  \PYG{n}{phoneNumber}
+          \PYG{n}{apiToGenerateOTP}\PYG{p}{()}
+      \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

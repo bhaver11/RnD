@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k+kd}{func} \PYG{n+nf}{didReceive}\PYG{p}{(}\PYG{n}{event}\PYG{p}{:} \PYG{n}{WebSocketEvent}\PYG{p}{,} \PYG{n}{client}\PYG{p}{:} \PYG{n}{WebSocket}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k}{switch} \PYG{n}{event} \PYG{p}{\PYGZob{}}
+    \PYG{k}{case} \PYG{p}{.}\PYG{n}{connected}\PYG{p}{(}\PYG{k+kd}{let} \PYG{n+nv}{headers}\PYG{p}{):}
+      \PYG{n}{isConnected} \PYG{p}{=} \PYG{k+kc}{true}
+      \PYG{n+nb+bp}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}websocket is connected: }\PYG{l+s+si}{\PYGZbs{}(}\PYG{n}{headers}\PYG{l+s+si}{)}\PYG{l+s}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{case} \PYG{p}{.}\PYG{n}{disconnected}\PYG{p}{(}\PYG{k+kd}{let} \PYG{n+nv}{reason}\PYG{p}{,} \PYG{k+kd}{let} \PYG{n+nv}{code}\PYG{p}{):}
+      \PYG{n}{isConnected} \PYG{p}{=} \PYG{k+kc}{false}
+      \PYG{n+nb+bp}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}websocket is disconnected: }\PYG{l+s+si}{\PYGZbs{}(}\PYG{n}{reason}\PYG{l+s+si}{)}\PYG{l+s}{ with code: }\PYG{l+s+si}{\PYGZbs{}(}\PYG{n}{code}\PYG{l+s+si}{)}\PYG{l+s}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{case} \PYG{p}{.}\PYG{n}{text}\PYG{p}{(}\PYG{k+kd}{let} \PYG{n+nv}{string}\PYG{p}{):}
+      \PYG{n+nb+bp}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Received text: }\PYG{l+s+si}{\PYGZbs{}(}\PYG{n}{string}\PYG{l+s+si}{)}\PYG{l+s}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{case} \PYG{p}{.}\PYG{n}{binary}\PYG{p}{(}\PYG{k+kd}{let} \PYG{n+nv}{data}\PYG{p}{):}
+      \PYG{n+nb+bp}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Received data: }\PYG{l+s+si}{\PYGZbs{}(}\PYG{n}{data}\PYG{p}{.}\PYG{n+nb+bp}{count}\PYG{l+s+si}{)}\PYG{l+s}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{case} \PYG{p}{.}\PYG{n}{error}\PYG{p}{(}\PYG{k+kd}{let} \PYG{n+nv}{error}\PYG{p}{):}
+      \PYG{n}{isConnected} \PYG{p}{=} \PYG{k+kc}{false}
+      \PYG{n}{handleError}\PYG{p}{(}\PYG{n}{error}\PYG{p}{)}
+    \PYG{p}{\PYGZcb{}}
+  \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

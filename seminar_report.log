@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.3)  20 JUN 2020 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.3)  22 JUN 2020 12:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -256,7 +256,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@minted@pygmentizecounter=\count283
 \@float@every@listing=\toks31
 \c@listing=\count284
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+)
+runsystem(mkdir -p _minted-seminar_report)...executed.
+
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -801,16 +804,40 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen289
+\captionmargin@=\dimen290
+\captionwidth=\dimen291
+\caption@tempdima=\dimen292
+\caption@indent=\dimen293
+\caption@parindent=\dimen294
+\caption@hangindent=\dimen295
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count449
+\c@continuedfloat=\count450
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count451
+\c@subtable=\count452
 )
 runsystem(which pygmentize && touch seminar_report.aex)...executed.
 
 runsystem(rm seminar_report.aex)...executed.
 
-\@quotelevel=\count449
-\@quotereset=\count450
+\@quotelevel=\count453
+\@quotereset=\count454
  (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count451
+\l__kernel_color_stack_int=\count455
 \l__pdf_internal_box=\box70
 )
 
@@ -820,37 +847,37 @@ LaTeX Warning: Unused global option(s):
 (./seminar_report.aux)
 \openout1 = `seminar_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 30.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count452
-\scratchdimen=\dimen289
+\scratchcounter=\count456
+\scratchdimen=\dimen296
 \scratchbox=\box71
-\nofMPsegments=\count453
-\nofMParguments=\count454
+\nofMPsegments=\count457
+\nofMParguments=\count458
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count455
-\MPscratchDim=\dimen290
-\MPnumerator=\count456
-\makeMPintoPDFobject=\count457
+\MPscratchCnt=\count459
+\MPscratchDim=\dimen297
+\MPnumerator=\count460
+\makeMPintoPDFobject=\count461
 \everyMPtoPDFconversion=\toks49
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -871,10 +898,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'seminar_report.bbl' found.
  (./seminar_report.bbl)
-Package biblatex Info: Reference section=0 on input line 28.
-Package biblatex Info: Reference segment=0 on input line 28.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 30.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -882,219 +909,469 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count458
+\c@section@level=\count462
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
  (./seminar_report.out) (./seminar_report.out)
 \@outlinefile=\write7
 \openout7 = `seminar_report.out'.
 
  ABD: EveryShipout initializing macros
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 28.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 30.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Reference `SEC: 2' on page 1 undefined on input line 44.
-
-
-LaTeX Warning: Reference `SEC: 3' on page 1 undefined on input line 44.
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 59.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 59.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 62.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 62.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 \openout4 = `seminar_report.pyg'.
 
-runsystem(pygmentize -S default -f latex -P commandprefix=PYG > seminar_report.out.pyg)...executed.
-
- (./seminar_report.out.pyg)
-runsystem(pygmentize -S default -f latex -P commandprefix=PYGdefault > seminar_report.out.pyg)...executed.
-
- (./seminar_report.out.pyg)
-runsystem(pygmentize -l swift -f latex -P commandprefix=PYG -F tokenmerge -o seminar_report.out.pyg seminar_report.pyg)...executed.
-
- (./seminar_report.out.pyg)
+ (./_minted-seminar_report/default-pyg-prefix.pygstyle) (./_minted-seminar_report/default.pygstyle) (./_minted-seminar_report/1CF5D6291585B54256D5D6077CE901A0B6295447DFEC04076BD375ECBA12D3E7.pygtex)
 \openout3 = `seminar_report.pyg'.
 
-runsystem(pygmentize -l swift -f latex -P commandprefix=PYG -F tokenmerge -o seminar_report.out.pyg seminar_report.pyg)...executed.
-
- (./seminar_report.out.pyg)
+ (./_minted-seminar_report/E23EC4D51D6DFAFC3471ADC24E5298CFB6295447DFEC04076BD375ECBA12D3E7.pygtex)
 \openout4 = `seminar_report.pyg'.
 
-runsystem(pygmentize -l swift -f latex -P commandprefix=PYG -F tokenmerge -o seminar_report.out.pyg seminar_report.pyg)...executed.
+ (./_minted-seminar_report/98E94265558AD985B3FEE67F32458C35B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
 
- (./seminar_report.out.pyg)
-Overfull \hbox (7.55504pt too wide) in paragraph at lines 72--73
-\OT1/ptm/m/n/12 Note that socket should be a class prop-erty de-fined at the be-gin-ning of class as [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
+ (./_minted-seminar_report/941F3488AAC2C6C7EF3993F2F0BCB230B6295447DFEC04076BD375ECBA12D3E7.pygtex)
 \openout3 = `seminar_report.pyg'.
 
-runsystem(pygmentize -l swift -f latex -P commandprefix=PYG -F tokenmerge -o seminar_report.out.pyg seminar_report.pyg)...executed.
-
-(./seminar_report.out.pyg)
-<xmpp_architecture.png, id=117, 466.74374pt x 359.3425pt>
-File: xmpp_architecture.png Graphic file (type png)
-<use xmpp_architecture.png>
-Package pdftex.def Info: xmpp_architecture.png  used on input line 83.
-(pdftex.def)             Requested size: 216.81pt x 166.92255pt.
- [2 <./xmpp_architecture.png>]
-Overfull \hbox (51.23056pt too wide) in paragraph at lines 105--106
-[]\OT1/ptm/m/n/12 The server-to-server fed-er-a-tion is a fea-ture that en-ables in-ter-op-er-abil-ity among dif-fer-ent XMPP im-ple-men-ta-tions.
+ (./_minted-seminar_report/A675B086942EA5428B595398612C4A3CB6295447DFEC04076BD375ECBA12D3E7.pygtex
+Overfull \hbox (20.2154pt too wide) in paragraph at lines 75--1
+\OT1/ptm/m/n/12 Note that [] should be a class prop-erty de-fined at the be-gin-ning of class as []
  []
 
+)
+\openout4 = `seminar_report.pyg'.
 
-Overfull \hbox (4.58893pt too wide) in paragraph at lines 109--110
-\OT1/ptm/m/n/12 XMPP ex-ten-sions are used to en-hance the core func-tion-al-i-ties of XMPP. These ex-ten-sions are ei-ther pro-duced
+ (./_minted-seminar_report/B40F7C9B1A92797F93A783434F821439B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/7C75D708D117BD7962279114B1D51640B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/AB2D724F74495A7F191E68C49615033BB6295447DFEC04076BD375ECBA12D3E7.pygtex
+Overfull \hbox (23.25052pt too wide) in paragraph at lines 82--1
+\OT1/ptm/m/n/12 After this, we must de-fine the del-e-gate meth-ods to han-dle the Web-Socket events. For ex-am-ple, the []
+ []
+
+)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/AEF59DEB315D51856A618FCBA88E0B68B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F136803AB9C241079BA0CC1B5D02EE77B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/C0546E2047A9DF40C225965C9982D6F7B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/AEF59DEB315D51856A618FCBA88E0B68B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/34E23E671447CA9DA4D418CB4F232E0EB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/C0546E2047A9DF40C225965C9982D6F7B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/4403EAC53CB0BF281815B56924319247B6295447DFEC04076BD375ECBA12D3E7.pygtex [2])
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F07EAC7AFE6B2EBD8937E27FB7DE2CE4B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/47A8F547313C81824BA2C92F8BE2C638B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/2D54B35D94287D11A57DAE6AD5662D47B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/ACB68ECA3304ECCA3FE594537DCDA1E4B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/6683A117A7853AC3AD524C8827C66FC5B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/EFC96E77A72A1772446AC5DF6D4D4AF4B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F5D555B20439BBD1CF691C7C2614AB67B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/C3CC46A58BA358B59B8C88A461433686B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/344DF171CC0119E59940C463E16ABDBBB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/515FEE693CED9022278D3CD7C12BFD52B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/86C94F9E3105DDB11F2FB9BF2AB56674B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/02DA4EA1CE7ABB9724ADCDF329ECB6A3B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
  []
 
 [3]
-Overfull \hbox (0.7616pt too wide) in paragraph at lines 124--125
-[]\OT1/ptm/m/n/12 In Febru-ary 2010, Face-book opened up its chat fea-ture to third-party ap-pli-ca-tions via XMPP. How-ever,
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/C6DE650EBC924EBAAE32824A0DC82990B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/63A1FE68700DE582691CA25014E96D6FB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/8CC4E9F59BDDE0C38FD8947A6FFACF18B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/261E6C02006D497A1939DD5FB6F5441AB6295447DFEC04076BD375ECBA12D3E7.pygtex
+Overfull \hbox (12.90671pt too wide) in paragraph at lines 141--1
+\OT1/ptm/m/n/12 This ar-ray is then passed to the func-tion [] which then cre-ates the sub-mis-sion
  []
 
-[4] [5]
-Overfull \hbox (19.45721pt too wide) in paragraph at lines 184--186
-\OT1/ptm/m/n/12 We have so far re-viewed two sig-nif-i-cant stan-dards. These were di-rectly re-lated to mes-sag-ing and in-ter-op-er-abil-ity.
+)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/A40AFA1BFE34F77D7CC95B8B8DA9B70CB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/2F7FEE5B0FC17289B35C2CD4A30E8FBAB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/B7B7F07DC9EE3E504962FD302B189895B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/BE6162952A9B12E6B05435CBCA2D88D3B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/0AAAAB52A2B1A89FAC861FF42D4C9B5EB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F74D93768789D739B2E553AB76E4BD18B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/DEBFA88DECF60523C26B27026CF2D82DB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F74D93768789D739B2E553AB76E4BD18B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/1DE9AB327EB17D29C81170292ED459A2B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+<login1.png, id=102, 752.8125pt x 1339.0025pt>
+File: login1.png Graphic file (type png)
+<use login1.png>
+Package pdftex.def Info: login1.png  used on input line 172.
+(pdftex.def)             Requested size: 128.0374pt x 227.72957pt.
+<login2.png, id=104, 752.8125pt x 1339.0025pt>
+File: login2.png Graphic file (type png)
+<use login2.png>
+Package pdftex.def Info: login2.png  used on input line 178.
+(pdftex.def)             Requested size: 128.0374pt x 227.72957pt.
+ [4]
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/A5D25239BF44B0D75B51594C99ECBFC1B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/72A74B760D1416F05A97CAD715C6CBB5B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/A5D25239BF44B0D75B51594C99ECBFC1B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/1AF3F0397CCC2402CA553A3182321086B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/65AE6D86E4DD20EE960B2E3B845C079DB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/65AE6D86E4DD20EE960B2E3B845C079DB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F5D555B20439BBD1CF691C7C2614AB67B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/4C5CB3AD1D891E1AB44F2D77F65635F8B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F3190A467E3CC3ED0A75824A44E1BA55B6295447DFEC04076BD375ECBA12D3E7.pygtex [5 <./login1.png> <./login2.png>])
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/4C5CB3AD1D891E1AB44F2D77F65635F8B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/FC23EFD605DEF97C79B94C7D6ADE93FAB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F34005B553E307414E5D57CCA316D6EBB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/6E4DABF19DB3B5FF240A9D374FEAF1C3B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F9AE31A84C3D84B1D2F5148747986230B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/CE9FB7760FB86527AE3039076C97C935B6295447DFEC04076BD375ECBA12D3E7.pygtex
+Underfull \hbox (badness 10000) in paragraph at lines 230--1
+
  []
 
-[6]
-<matryoshka.png, id=163, 635.37375pt x 418.56375pt>
-File: matryoshka.png Graphic file (type png)
-<use matryoshka.png>
-Package pdftex.def Info: matryoshka.png  used on input line 194.
-(pdftex.def)             Requested size: 216.81pt x 142.8271pt.
+)
+\openout4 = `seminar_report.pyg'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--198
+ (./_minted-seminar_report/43AB976027CB4980118B96CE5108B037B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F5D555B20439BBD1CF691C7C2614AB67B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/416BB1808F14525D906C2D947A84F9F5B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/E7F3470A3954C7DA65A6D528BB46C88AB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/43AB976027CB4980118B96CE5108B037B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F5D555B20439BBD1CF691C7C2614AB67B6295447DFEC04076BD375ECBA12D3E7.pygtex) [6]
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/B54E779262AA7F2A2C349FC4905B76E6B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F9AE31A84C3D84B1D2F5148747986230B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/FA769B4AD2C48F942621B456579A2224B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/AE17866E428591C9229A9C6DAB05F12DB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/BC00B9BB68B4AB24E0568C0792759E1EB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/2DEE289BF6E786A42818F2F0DDE13890B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/B72399529B9CABD0DD478C18C349F708B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/2D54B35D94287D11A57DAE6AD5662D47B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/9917765E4893C1D4785D96225C6B396BB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/6E5815141C70C40A73D698E5258A7065B6295447DFEC04076BD375ECBA12D3E7.pygtex [7])
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/189D70D74792DBC4B462721EB65CCD19B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/BA1515B6BE89FC3B264EBA7EF2F08B1AB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 302--305
 
  []
 
-[7] [8 <./matryoshka.png>]
-Overfull \hbox (4.42201pt too wide) in paragraph at lines 214--216
-[]\OT1/ptm/m/n/12 However, it can-not counter dis-in-for-ma-tion which spreads on end to end en-crypted plat-forms. These plat-forms
+\openout4 = `seminar_report.pyg'.
+
+(./_minted-seminar_report/73CA17DD816C84472F5B60DDD2DEA246B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/E6CDBE8659B7C7AE61D503E372894B46B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/E9C64BC22B13C9E62F68F16254FA6AF2B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/718C0EE2C876C438F3066C801708683AB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/5C42C85DB800E3050690A0546F976F12B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F5D555B20439BBD1CF691C7C2614AB67B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/3B7C4D0EFEA682681E477C3CBC9CB171B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/ED1803240B03E002D6756C960DD35678B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/6B67C1D873D7256B8932DEFBBBC9C655B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/64C33DB9E344E6D4488E554C5C7BD8BBB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+Overfull \hbox (33.13824pt too wide) in paragraph at lines 308--309
+[]\OT1/ptm/m/n/12 Changes the [] but-ton la-bel to [] and changes the func-tion it trig-gers to [] 
+ []
+
+\openout4 = `seminar_report.pyg'.
+
+(./_minted-seminar_report/61FFA9BCF2D18401EB8C230562659F92B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/C730C926C19B20AC14B3E0538BED2959B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/C730C926C19B20AC14B3E0538BED2959B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/6B67C1D873D7256B8932DEFBBBC9C655B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/6F0334FA89DC26F8F263D3E558C288C0B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F5D555B20439BBD1CF691C7C2614AB67B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/5C42C85DB800E3050690A0546F976F12B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/8862DB6B4FF4317F1F4BDA168B327E87B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/682550487EDF6392A0926A132FFF9FBCB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/59E7A9C403376B32E18A741B0EC8F83AB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/6B67C1D873D7256B8932DEFBBBC9C655B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/EC98230DF38CE4E3901E92FBE8D96AC2B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/FB54AF86BA5BF3DD750E222762BEA126B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/288A4958E2874D01F1F0D510B414C3A4B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F6D4688713D5810D1EC5E7DC397E1181B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F136803AB9C241079BA0CC1B5D02EE77B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/E4F5B4EB9B03D0699A381DD21C9DA055B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/2A8C7FE342E6C179B106D9008EF57043B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/F5D555B20439BBD1CF691C7C2614AB67B6295447DFEC04076BD375ECBA12D3E7.pygtex) [8]
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/DABE6A54A86AEF08BA605A1FC26832B8B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/C1E1816E982C1EB7EAB513742B213DDCB6295447DFEC04076BD375ECBA12D3E7.pygtex
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 7.
+)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/E4F5B4EB9B03D0699A381DD21C9DA055B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/2A8C7FE342E6C179B106D9008EF57043B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/CC0890E72E897CB28B525A81D1DE4674B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+<trace1.png, id=130, 752.8125pt x 1339.0025pt>
+File: trace1.png Graphic file (type png)
+<use trace1.png>
+Package pdftex.def Info: trace1.png  used on input line 359.
+(pdftex.def)             Requested size: 128.0374pt x 227.72957pt.
+<trace2.png, id=131, 752.8125pt x 1339.0025pt>
+File: trace2.png Graphic file (type png)
+<use trace2.png>
+Package pdftex.def Info: trace2.png  used on input line 364.
+(pdftex.def)             Requested size: 128.0374pt x 227.72957pt.
+ [9 <./trace1.png> <./trace2.png>]
+\openout3 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/2CA17F01410F0931BF38D2450BFCDE21B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/9E126EFFA8D2F420044905F1566C492CB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/1A47D5B827BEC5165FD530393ED48F1BB6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/B2C413DE942D696B59779ECEED1CB805B6295447DFEC04076BD375ECBA12D3E7.pygtex)
+\openout4 = `seminar_report.pyg'.
+
+ (./_minted-seminar_report/0EF7DB7C73F2211E9250AF80795F33FFB6295447DFEC04076BD375ECBA12D3E7.pygtex) [10]
+Overfull \hbox (19.71118pt too wide) in paragraph at lines 397--397
+[]\OT1/ptm/m/n/12 https://medium.com/better-programming/websockets-in-ios-13-using-swift-and-xcode-11-18fa3000d802. 
  []
 
 
-Overfull \hbox (7.49344pt too wide) in paragraph at lines 225--228
-\OT1/ptm/m/n/12 that gain le-git-i-macy through con-sul-ta-tion v-Taiwan re-lies on a lot of open-source tools for so-lic-it-ing pro-pos-als,
+Overfull \hbox (0.46239pt too wide) in paragraph at lines 397--397
+[]\OT1/ptm/m/n/12 https://www.hackingwithswift.com/example-code/system/how-to-make-an-action-repeat-using-timer. 
  []
 
-[9]
-<proto_file.png, id=190, 373.395pt x 313.17pt>
-File: proto_file.png Graphic file (type png)
-<use proto_file.png>
-Package pdftex.def Info: proto_file.png  used on input line 261.
-(pdftex.def)             Requested size: 216.81pt x 181.83942pt.
-<access_data.png, id=192, 484.81125pt x 385.44pt>
-File: access_data.png Graphic file (type png)
-<use access_data.png>
-Package pdftex.def Info: access_data.png  used on input line 269.
-(pdftex.def)             Requested size: 216.81pt x 172.3701pt.
- [10 <./proto_file.png>]
-<double_ratchet.png, id=201, 632.3625pt x 542.025pt>
-File: double_ratchet.png Graphic file (type png)
-<use double_ratchet.png>
-Package pdftex.def Info: double_ratchet.png  used on input line 280.
-(pdftex.def)             Requested size: 216.81pt x 185.83266pt.
- [11 <./access_data.png>] [12 <./double_ratchet.png>] [13]
-Overfull \hbox (23.93365pt too wide) in paragraph at lines 321--321
-[]\OT1/ptm/m/n/12 Amri. \OT1/ptm/m/it/12 Why should some-one leave XMPP? \OT1/ptm/m/n/12 Mar. 2018. \OT1/ptm/m/sc/12 url\OT1/ptm/m/n/12 : []$\OT1/pcr/m/n/12 https : / / medium . com / @amrishodiq /
- []
-
-
-Overfull \hbox (7.08107pt too wide) in paragraph at lines 321--321
-\OT1/ptm/m/n/12 me-dia''. In: \OT1/ptm/m/it/12 Eu-ro-pean Man-age-ment Jour-nal \OT1/ptm/m/n/12 36.4 (2018), pp. 431{438. \OT1/ptm/m/sc/12 issn\OT1/ptm/m/n/12 : 0263-2373. \OT1/ptm/m/sc/12 doi\OT1/ptm/m/n/12 : []$\OT1/pcr/m/n/12 https :
- []
-
-
-Overfull \hbox (8.42523pt too wide) in paragraph at lines 321--321
-[]\OT1/ptm/m/n/12 L. A. Cu-tillo, R. Molva, and T. Strufe. ``Pri-vacy pre-serv-ing so-cial net-work-ing through de-cen-tral-iza-tion''.
- []
-
-
-Overfull \hbox (9.91443pt too wide) in paragraph at lines 321--321
-[]\OT1/ptm/m/it/12 Google's Pro-to-col Buffers\OT1/ptm/m/n/12 . \OT1/ptm/m/sc/12 url\OT1/ptm/m/n/12 : []$\OT1/pcr/m/n/12 https : / / developers . google . com / protocol -[] buffers$[]\OT1/ptm/m/n/12 . 
- []
-
-
-Overfull \hbox (1.91211pt too wide) in paragraph at lines 321--321
-\OT1/ptm/m/n/12 open source soft-ware and li-braries''. In: \OT1/ptm/m/it/12 2010 In-ter-na-tional Sym-po-sium on Col-lab-o-ra-tive Tech-nolo-gies
- []
-
-
-Overfull \hbox (47.29819pt too wide) in paragraph at lines 321--321
-[]\OT1/ptm/m/it/12 Rich Com-mu-ni-ca-tion Ser-vices\OT1/ptm/m/n/12 . \OT1/ptm/m/sc/12 url\OT1/ptm/m/n/12 : []$\OT1/pcr/m/n/12 https : / / en . wikipedia . org / wiki / Rich _ Communication _
- []
-
-
-Overfull \hbox (10.18895pt too wide) in paragraph at lines 321--321
-[]\OT1/ptm/m/n/12 P. Saint-Andre. ``XMPP: lessons learned from ten years of XML mes-sag-ing''. In: \OT1/ptm/m/it/12 IEEE Com-mu-ni-ca-tions
- []
-
-[14]
-Overfull \hbox (8.54329pt too wide) in paragraph at lines 321--321
-[]\OT1/ptm/m/n/12 Iris Hsu/CPJ Steven But-ler. \OT1/ptm/m/it/12 Tai-wan's dig-i-tal min-is-ter on com-bat-ting dis-in-for-ma-tion with-out cen-sor-ship\OT1/ptm/m/n/12 .
- []
-
-
-Overfull \hbox (11.21156pt too wide) in paragraph at lines 321--321
-[]\OT1/ptm/m/it/12 The What-App Ar-chi-tec-ture Face-book Bought for 19 Bil-lion Dol-lars\OT1/ptm/m/n/12 . [On-line; posted 26-February-2014].
- []
-
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+[11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
  (./seminar_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
 Package rerunfilecheck Info: File `seminar_report.out' has not changed.
-(rerunfilecheck)             Checksum: 211E21FB875459EB7960B91ADCC91913;1219.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 1E322E5A1B3E320432D4CD67011F80EA;731.
 runsystem(rm seminar_report.pyg)...executed.
-
-runsystem(rm seminar_report.out.pyg)...executed.
 
 Package logreq Info: Writing requests to 'seminar_report.run.xml'.
 \openout1 = `seminar_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27683 strings out of 480608
- 533957 string characters out of 5903631
- 1202907 words of memory out of 5000000
- 42965 multiletter control sequences out of 15000+600000
- 554474 words of font info for 75 fonts, out of 8000000 for 9000
+ 29219 strings out of 480608
+ 595379 string characters out of 5903631
+ 1227668 words of memory out of 5000000
+ 44218 multiletter control sequences out of 15000+600000
+ 558968 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,83p,1421b,1370s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminar_report.pdf (15 pages, 266589 bytes).
+ 68i,13n,96p,902b,1039s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on seminar_report.pdf (11 pages, 286131 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

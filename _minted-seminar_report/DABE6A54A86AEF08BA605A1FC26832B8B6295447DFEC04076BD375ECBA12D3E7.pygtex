@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{token} \PYG{p}{=} \PYG{n}{valueDict}\PYG{p}{[}\PYG{l+s}{\PYGZdq{}token\PYGZdq{}}\PYG{p}{]} \PYG{k}{as}\PYG{p}{!} \PYG{n+nb}{String}
+  \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{user\PYGZus{}id} \PYG{p}{=} \PYG{n}{valueDict}\PYG{p}{[}\PYG{l+s}{\PYGZdq{}user\PYGZus{}id\PYGZdq{}}\PYG{p}{]} \PYG{k}{as}\PYG{p}{!} \PYG{n+nb}{String}
+  \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{pseudo\PYGZus{}id\PYGZus{}list} \PYG{p}{=} \PYG{n}{valueDict}\PYG{p}{[}\PYG{l+s}{\PYGZdq{}pseudo\PYGZus{}id\PYGZus{}list\PYGZdq{}}\PYG{p}{]} \PYG{k}{as}\PYG{p}{!} \PYG{n+nb+bp}{NSArray}
+\end{Verbatim}

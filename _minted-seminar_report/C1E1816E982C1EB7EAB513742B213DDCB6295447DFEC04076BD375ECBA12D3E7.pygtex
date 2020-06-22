@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYG{k+kd}{var} \PYG{n+nv}{token}\PYG{p}{:} \PYG{n+nb}{String} \PYG{p}{\PYGZob{}}
+    \PYG{k+kr}{get} \PYG{p}{\PYGZob{}}
+        \PYG{k}{if} \PYG{k+kd}{let} \PYG{n+nv}{returnValue} \PYG{p}{=} \PYG{n}{UserDefaults}\PYG{p}{.}\PYG{n}{standard}\PYG{p}{.}\PYG{n}{object}\PYG{p}{(}\PYG{n}{forKey}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}token\PYGZdq{}}\PYG{p}{)} \PYG{k}{as}\PYG{p}{?} \PYG{n+nb}{String} \PYG{p}{\PYGZob{}}
+            \PYG{k}{return} \PYG{n}{returnValue}
+        \PYG{p}{\PYGZcb{}} \PYG{k}{else} \PYG{p}{\PYGZob{}}
+            \PYG{k}{return} \PYG{l+s}{\PYGZdq{}\PYGZdq{}} \PYG{c+c1}{//Default value}
+        \PYG{p}{\PYGZcb{}}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{k+kr}{set} \PYG{p}{\PYGZob{}}
+        \PYG{n}{UserDefaults}\PYG{p}{.}\PYG{n}{standard}\PYG{p}{.}\PYG{k+kr}{set}\PYG{p}{(}\PYG{n}{newValue}\PYG{p}{,} \PYG{n}{forKey}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}token\PYGZdq{}}\PYG{p}{)}
+        \PYG{n}{UserDefaults}\PYG{p}{.}\PYG{n}{standard}\PYG{p}{.}\PYG{n}{synchronize}\PYG{p}{()}
+    \PYG{p}{\PYGZcb{}}
+  \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

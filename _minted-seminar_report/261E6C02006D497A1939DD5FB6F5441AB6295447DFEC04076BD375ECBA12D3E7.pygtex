@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k+kd}{var} \PYG{n+nv}{submission} \PYG{p}{=} \PYG{p}{[[}\PYG{n+nb}{String}\PYG{p}{:}\PYG{n+nb}{AnyObject}\PYG{p}{?]]()}
+  \PYG{n}{makeJsonObjectOfResponse}\PYG{p}{(}\PYG{n}{submission}\PYG{p}{:} \PYG{p}{\PYGZam{}}\PYG{n}{submission}\PYG{p}{)}
+\end{Verbatim}

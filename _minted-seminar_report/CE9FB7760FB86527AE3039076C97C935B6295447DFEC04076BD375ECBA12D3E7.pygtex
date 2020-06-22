@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYG{k+kd}{let} \PYG{n+nv}{uuid} \PYG{p}{=} \PYG{n+nb+bp}{UIDevice}\PYG{p}{.}\PYG{n}{current}\PYG{p}{.}\PYG{n}{identifierForVendor}\PYG{p}{?.}\PYG{n}{uuidString}
+\end{Verbatim}

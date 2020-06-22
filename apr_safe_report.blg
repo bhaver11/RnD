@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'apr_safe_report.blg'
+[155] biber-darwin:322> INFO - === Mon Jun 22, 2020, 12:05:34
+[192] Biber.pm:415> INFO - Reading 'apr_safe_report.bcf'
+[372] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[395] Biber.pm:4256> INFO - Processing section 0
+[395] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[396] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[417] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[418] bibtex.pm:1653> INFO - LaTeX decoding ...
+[426] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[453] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[453] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[453] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[459] bbl.pm:652> INFO - Writing 'apr_safe_report.bbl' with encoding 'UTF-8'
+[461] bbl.pm:755> INFO - Output to apr_safe_report.bbl

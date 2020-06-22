@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYG{k+kd}{let} \PYG{n+nv}{storyboard} \PYG{p}{=} \PYG{n+nb+bp}{UIStoryboard}\PYG{p}{(}\PYG{n}{name}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}Trace\PYGZdq{}}\PYG{p}{,} \PYG{n}{bundle}\PYG{p}{:} \PYG{k+kc}{nil}\PYG{p}{)}
+ \PYG{k+kd}{let} \PYG{n+nv}{vc} \PYG{p}{=}
+  \PYG{n}{storyboard}\PYG{p}{.}\PYG{n}{instantiateViewController}\PYG{p}{(}\PYG{n}{withIdentifier}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}TraceVC\PYGZdq{}}\PYG{p}{)} \PYG{k}{as}\PYG{p}{!} \PYG{n}{TraceViewController}
+ \PYG{k+kc}{self}\PYG{p}{.}\PYG{n}{pushViewControllerWithTransition}\PYG{p}{(}\PYG{n}{vc}\PYG{p}{:} \PYG{n}{vc}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{url}  \PYG{p}{=} \PYG{l+s}{\PYGZdq{}https://guava.safe\PYGZhy{}analytics.in/ws/\PYGZdq{}}\PYG{o}{+}
+          \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{quizid}\PYG{o}{+}\PYG{l+s}{\PYGZdq{}/?token=\PYGZdq{}}\PYG{o}{+}\PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{token}
+\end{Verbatim}

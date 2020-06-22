@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{phoneNumberInput}\PYG{p}{.}\PYG{n}{addTarget}\PYG{p}{(}\PYG{k+kc}{self}\PYG{p}{,}
+                             \PYG{n}{action}\PYG{p}{:} \PYG{k}{\PYGZsh{}selector}\PYG{p}{(}\PYG{n}{phoneNumFieldDidChange}\PYG{p}{),}
+                             \PYG{k}{for}\PYG{p}{:} \PYG{n+nb+bp}{UIControl}\PYG{p}{.}\PYG{n}{Event}\PYG{p}{.}\PYG{n}{editingChanged}\PYG{p}{)}
+\end{Verbatim}

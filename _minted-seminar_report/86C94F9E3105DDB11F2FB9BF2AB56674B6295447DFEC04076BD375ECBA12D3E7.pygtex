@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kc}{self}\PYG{p}{.}\PYG{n}{periodicSubmitTimer} \PYG{p}{=}
+\PYG{n}{Timer}\PYG{p}{.}\PYG{n}{scheduledTimer}\PYG{p}{(}\PYG{n}{timeInterval}\PYG{p}{:}
+                     \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{PERIODIC\PYGZus{}SUBMIT\PYGZus{}INTERVAL\PYGZus{}SECONDS}\PYG{p}{,}
+                     \PYG{n}{target}\PYG{p}{:} \PYG{k+kc}{self}\PYG{p}{,}
+                     \PYG{n}{selector}\PYG{p}{:} \PYG{k}{\PYGZsh{}selector}\PYG{p}{(}\PYG{k+kc}{self}\PYG{p}{.}\PYG{n}{periodicSubmit}\PYG{p}{),}
+                     \PYG{n}{userInfo}\PYG{p}{:} \PYG{k+kc}{nil}\PYG{p}{,} \PYG{n}{repeats}\PYG{p}{:} \PYG{k+kc}{true}\PYG{p}{)}
+\end{Verbatim}

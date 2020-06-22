@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{BASE\PYGZus{}URL} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}api/quiz/submission\PYGZus{}key/partial\PYGZus{}submission/\PYGZdq{}}
+\end{Verbatim}

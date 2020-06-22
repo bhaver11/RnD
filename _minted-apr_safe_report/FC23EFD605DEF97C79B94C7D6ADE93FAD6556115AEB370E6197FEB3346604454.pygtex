@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYG{n}{SwiftSpinner}\PYG{p}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Sending OTP\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

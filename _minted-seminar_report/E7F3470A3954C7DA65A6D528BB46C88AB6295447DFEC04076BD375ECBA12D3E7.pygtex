@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{if}\PYG{p}{(}\PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{keychainUniqueDeviceId} \PYG{p}{==} \PYG{l+s}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)\PYGZob{}}
+      \PYG{k}{if} \PYG{k+kd}{let} \PYG{n+nv}{uuid} \PYG{p}{=} \PYG{n+nb+bp}{UIDevice}\PYG{p}{.}\PYG{n}{current}\PYG{p}{.}\PYG{n}{identifierForVendor}\PYG{p}{?.}\PYG{n}{uuidString}\PYG{p}{\PYGZob{}}
+          \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{keychainUniqueDeviceId} \PYG{p}{=} \PYG{n}{uuid}\PYG{p}{;}
+      \PYG{p}{\PYGZcb{}}
+   \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

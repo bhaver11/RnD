@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k+kd}{let} \PYG{n+nv}{jsonString} \PYG{p}{=} \PYG{n}{GlobalFN}\PYG{p}{().}\PYG{n}{dictToJSON}\PYG{p}{(}\PYG{n}{dict}\PYG{p}{:} \PYG{n}{parameters} \PYG{k}{as} \PYG{n+nb+bp}{NSDictionary}\PYG{p}{)}
+  \PYG{k+kd}{let} \PYG{n+nv}{jsonData} \PYG{p}{=} \PYG{n}{jsonString}\PYG{p}{.}\PYG{n}{data}\PYG{p}{(}\PYG{n}{using}\PYG{p}{:} \PYG{p}{.}\PYG{n}{utf8}\PYG{p}{)}\PYG{o}{!}
+  \PYG{k+kd}{let} \PYG{n+nv}{attListRequest} \PYG{p}{=}
+              \PYG{k}{try}\PYG{p}{!} \PYG{n}{JSONDecoder}\PYG{p}{().}\PYG{n}{decode}\PYG{p}{(}\PYG{n}{otpRequest}\PYG{p}{.}\PYG{k+kc}{self}\PYG{p}{,} \PYG{n}{from}\PYG{p}{:} \PYG{n}{jsonData}\PYG{p}{)}
+\end{Verbatim}
